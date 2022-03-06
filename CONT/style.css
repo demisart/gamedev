@@ -1,0 +1,114 @@
+a{
+ text-decoration: none;
+ color: black;
+}
+
+@font-face {
+   font-family: myFirstFont;
+   src: url(kyokasho.ttc);
+}
+
+@font-face {
+   font-family: mySecondFont;
+   src: url(kyokasho.ttc);
+}
+
+div {
+  font-family: Arial;
+  font-size:40px;
+}
+
+pre {
+	font-family: Arial;
+}
+
+ruby {
+  display: inline-flex;
+  flex-direction: column-reverse;
+}
+
+rb, rt {
+  display: inline;
+  line-height: 1.6;
+  font-size:20px;
+  font-family: Arial;
+}
+
+p{
+	font-family: Arial;
+	font-size:30px;
+	color: black;
+	background-image: url("Picture.png");
+	background-repeat: no-repeat;
+	border-radius:50px;
+	-moz-border-radius:50px;
+	-webkit-border-radius:50px;
+	
+}
+
+
+#borda{
+	text-shadow: rgb(43, 191, 255) 3px 0px 0px, rgb(43, 191, 255) 2.83487px 0.981584px 0px, rgb(43, 191, 255) 2.35766px 1.85511px 0px, rgb(43, 191, 255) 1.62091px 2.52441px 0px, rgb(43, 191, 255) 0.705713px 2.91581px 0px, rgb(43, 191, 255) -0.287171px 2.98622px 0px, rgb(43, 191, 255) -1.24844px 2.72789px 0px, rgb(43, 191, 255) -2.07227px 2.16926px 0px, rgb(43, 191, 255) -2.66798px 1.37182px 0px, rgb(43, 191, 255) -2.96998px 0.42336px 0px, rgb(43, 191, 255) -2.94502px -0.571704px 0px, rgb(43, 191, 255) -2.59586px -1.50383px 0px, rgb(43, 191, 255) -1.96093px -2.27041px 0px, rgb(43, 191, 255) -1.11013px -2.78704px 0px, rgb(43, 191, 255) -0.137119px -2.99686px 0px, rgb(43, 191, 255) 0.850987px -2.87677px 0px, rgb(43, 191, 255) 1.74541px -2.43999px 0px, rgb(43, 191, 255) 2.44769px -1.73459px 0px, rgb(43, 191, 255) 2.88051px -0.838247px 0px;
+}
+
+
+/*
+span{
+	font-family:Kanit;
+	font-size:25px;
+	}
+*/
+
+.button {
+    background-color: #FD6B20;
+	border:none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+	font-family: Sarabun;
+    margin: 4px 2px;
+    cursor: pointer;
+	border-radius: 50%;
+	height: 70px;
+}
+
+.button0 {
+    background-color: #e7e7e7;
+    border:2px solid #FD6B20;
+    color: black;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+	font-family: Sarabun;
+    margin: 4px 2px;
+    cursor: pointer;
+	border-radius: 32px;
+}
+
+@-webkit-keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; } 
+}
+@-moz-keyframes fadeIn {
+0% { opacity: 0;}
+100% { opacity: 1; }
+}
+@-o-keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+@keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+
+.fadeIn {
+-webkit-animation: fadeIn 3s ease-in-out;
+-moz-animation: fadeIn 3s ease-in-out;
+-o-animation: fadeIn 3s ease-in-out;
+animation: fadeIn 0.1s ease-in-out;
+}
